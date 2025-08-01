@@ -1,1 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 torch_learn_env/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch model files (if you don't want to commit large model files)
+*.pth
+*.pt
+
+# macOS
+.DS_Store
+
+
+# Data files
+data/
+*.gz
+*.zip
+*.tar
+*.tar.gz
