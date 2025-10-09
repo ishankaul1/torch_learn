@@ -6,7 +6,6 @@ from torchvision.transforms import ToTensor
 
 from constants import SAVED_MODELS_DIR
 
-# TODO probably move this to a jupyter notebook for iteration.
 
 EPOCHS = 5
 BATCH_SIZE = 64
